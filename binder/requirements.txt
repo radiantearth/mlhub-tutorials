@@ -1,0 +1,2 @@
+requests~=2.25.1
+tifffile==2019.7.26.2
