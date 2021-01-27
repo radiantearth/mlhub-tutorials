@@ -1,2 +1,2 @@
-git+https://github.com/radiantearth/radiant-mlhub@dev
+radiant-mlhub~=0.1.0
 tifffile==2019.7.26.2
