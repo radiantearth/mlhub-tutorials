@@ -3,4 +3,4 @@ notebooks/.ipynb_checkpoints/
 .DS_Store
 .python-version
 .idea
-notebooks/.ipynb_checkpoints
+notebooks/**/.ipynb_checkpoints
