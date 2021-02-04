@@ -4,3 +4,4 @@ notebooks/.ipynb_checkpoints/
 .python-version
 .idea
 notebooks/**/.ipynb_checkpoints
+notebooks/**/data
