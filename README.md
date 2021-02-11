@@ -1,6 +1,6 @@
 # Radiant MLHub Tutorials
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/radiantearth/mlhub-tutorials/dev?filepath=notebooks%2Findex.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/radiantearth/mlhub-tutorials/master?filepath=notebooks%2Findex.ipynb)
 
 This repository contains introductions and Jupyter Notebook examples on how to access Radiant MLHub API.
 
@@ -9,7 +9,7 @@ and interact with the API.
 
 ## Run on Binder
 You can run the Jupyter Notebook examples using [Binder](https://mybinder.org/) by clicking on the 
-"launch binder" badge above or [this link](https://mybinder.org/v2/gh/radiantearth/mlhub-tutorials/dev?filepath=notebooks%2Findex.ipynb). 
+"launch binder" badge above or [this link](https://mybinder.org/v2/gh/radiantearth/mlhub-tutorials/master?filepath=notebooks%2Findex.ipynb). 
 The Binder environment will automatically install any dependencies required by the notebooks. 
 
 *Note that the examples involving downloading 
