@@ -15,7 +15,7 @@ your local file system. To download these assets locally you must run the notebo
 
 ### Run on Binder
 You can run the Jupyter Notebook examples using [Binder](https://mybinder.org/) by clicking on the 
-"launch binder" badge above or [this link](https://mybinder.org/v2/gh/radiantearth/mlhub-tutorials/master?filepath=notebooks%2Findex.ipynb). 
+"launch binder" badge above or [this link](https://mybinder.org/v2/gh/radiantearth/mlhub-tutorials/main?filepath=notebooks%2Findex.ipynb). 
 The Binder environment will automatically install any dependencies required by the notebooks. 
 
 ### Run in Google Colab
