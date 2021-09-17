@@ -19,7 +19,7 @@ Access to the Radiant MLHub API requires an access token. To get your access tok
 
 To see what training data is available, you will need to access the collections available through the API. A collection represents the top-most data level. Typically, this means the data comes from the same source for the same geography. It might include different years or sub-geographies.
 
-To find data with specific parameters, see the [API documentation](http://docs.mlhub.earth/?python#the-feature-collections-in-the-dataset)Use the collections endpoint to retrieve a list of all collections available and their associated ids.
+To find data with specific parameters, see the [API documentation](http://docs.mlhub.earth/?python#the-feature-collections-in-the-dataset) Use the collections endpoint to retrieve a list of all collections available and their associated ids.
 
 ## Access items
 
