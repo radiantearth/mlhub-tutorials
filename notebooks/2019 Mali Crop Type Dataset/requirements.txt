@@ -1,5 +1,4 @@
 radiant-mlhub==0.1.*
-pandas==1.2.*
 tensorflow==2.4.0
 matplotlib==3.3.*
 scikit-image==0.18.*
