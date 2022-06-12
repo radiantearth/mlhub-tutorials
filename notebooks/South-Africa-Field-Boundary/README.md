@@ -2,6 +2,7 @@ This tutorial is divided into four notebooks. Each notebook performs a specific 
 
 1. [Extract_data.ipynb](https://github.com/radiantearth/mlhub-tutorials/blob/mali-crop-type/notebooks/South-Africa-Field-Boundary/1.%20Extract_data.ipynb): This notebooks focuses on extracting the data from an S3 bucket and combining the RGB bands for further processing.
 After running this notebook, you should have a file structure as follows:
+
 Working Directory    
 │
 └───data
