@@ -23,7 +23,7 @@ To excute all notebooks, you need to install the needed libraries from the [`req
 
 All you need to do is run on your terminal:
 `pip install -r requirements.txt`
-or `conda install --file requirements.txt`. This is very advisable if you're using Apple Silicon (M1 or similar)
+or `conda install --file requirements.txt`. The latter is very advisable if you're using Apple Silicon (M1 or similar). Also note that you'd need to install tensorflow-macos rather than the usual tensorflow if using the M1 or similar.
 
 Note that in using conda install, you might get NoPackagesFound for the following libraries:
 
