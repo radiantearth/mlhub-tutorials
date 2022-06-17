@@ -17,7 +17,7 @@ For the purpose of data augmentation, only the [`src`](https://github.com/radix-
 
 3. [Data Preparation.ipynb](https://github.com/radiantearth/mlhub-tutorials/blob/mali-crop-type/notebooks/South-Africa-Field-Boundary/3.%20Data%20Preparation.ipynb): Here, we will prepare the augmented training data into training, validation and test data. We will also check for augmented images with empty labels/masks and exclude them from model training.
 
-4. [4. Model Training.ipynb](https://github.com/radiantearth/mlhub-tutorials/blob/mali-crop-type/notebooks/South-Africa-Field-Boundary/4.%20Model%20Training.ipynb). This notebook delves into building the UNet-Agri model and training it on the training data. 
+4. [Model Training.ipynb](https://github.com/radiantearth/mlhub-tutorials/blob/mali-crop-type/notebooks/South-Africa-Field-Boundary/4.%20Model%20Training.ipynb). This notebook delves into building the UNet-Agri model and training it on the training data. 
 
 To excute all notebooks, you need to install the needed libraries from the [`requirements.txt`](https://github.com/radiantearth/mlhub-tutorials/blob/mali-crop-type/notebooks/South-Africa-Field-Boundary/requirements.txt) file.
 
@@ -34,4 +34,4 @@ Note that in using conda install, you might get NoPackagesFound for the followin
 
 All you need to do is to run a pip install for these packages.
 
-To install rasterio, you might also need to download both binaries for your system (rasterio and GDAL). You can read the [documentation](https://rasterio.readthedocs.io/en/latest/installation.html) here  
+To install rasterio, you might also need to download both binaries for rasterio and GDAL. You can read the [documentation](https://rasterio.readthedocs.io/en/latest/installation.html) here  
