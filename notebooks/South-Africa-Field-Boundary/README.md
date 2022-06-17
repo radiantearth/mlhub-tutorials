@@ -32,6 +32,6 @@ Note that in using conda install, you might get NoPackagesFound for the followin
   - keras==2.3.1
   - segmentation_models
 
-All you need to do is to run a pip install for these packages.
+All you need to do is to run a pip install for these packages individually.
 
 To install rasterio, you might also need to download both binaries for rasterio and GDAL. You can read the [documentation](https://rasterio.readthedocs.io/en/latest/installation.html) here  
