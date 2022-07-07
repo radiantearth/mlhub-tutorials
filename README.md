@@ -5,7 +5,7 @@
 
 This repository contains introductions and Jupyter Notebook examples on how to access Radiant MLHub API.
 
-You can start by reading the [introductory guide](RadiantMLHub-intro.pdf), or jump into using the [Jupyter Notebook examples](./notebooks/index.ipynb) 
+You can start by reading the [introductory guide](RadiantMLHub-intro.md), or jump into using the [Jupyter Notebook examples](./notebooks/index.ipynb) 
 and interact with the API. 
 
 ## Run in Hosted Environment
