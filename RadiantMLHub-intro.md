@@ -1,5 +1,5 @@
 
-![alt text](https://www.mlhub.earth/assets/images/logo_dark.png)
+![alt text](https://mlhub.earth/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fradiant_mlhub.37e94424.png&w=750&q=75)
 # **How to access Radiant MLHub data**
 
 The Radiant MLHub API gives access to open Earth observation (EO) training data for machine
