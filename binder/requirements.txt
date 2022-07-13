@@ -1,4 +1,4 @@
-radiant-mlhub~=0.5.0
+radiant-mlhub==0.5.1
 tifffile==2019.7.26.2
 pandas~=1.2.0
 matplotlib~=3.3.4
