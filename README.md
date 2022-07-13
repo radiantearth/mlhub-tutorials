@@ -26,7 +26,7 @@ not have a mechanism for automatically installing dependencies to a notebook env
 install all dependencies within the notebook as follows:*
 
 ```
-%pip install radiant-mlhub~=0.1.2 tifffile==2019.7.26.2 pandas~=1.2.0 matplotlib~=3.3.4 scikit-image~=0.18.1
+%pip install radiant-mlhub~=0.5.1 tifffile==2019.7.26.2 pandas~=1.2.0 matplotlib~=3.3.4 scikit-image~=0.18.1
 ```
 
 ## Run Locally
