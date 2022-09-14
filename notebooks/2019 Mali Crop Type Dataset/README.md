@@ -24,8 +24,8 @@ The second notebook [2. Model training](https://github.com/radiantearth/mlhub-tu
 
 First clone this Git repository.
 ```bash
-git clone https://github.com/radiantearth/mlhub-tutorials/tree/mali-crop-type/notebooks/2019%20Mali%20Crop%20Type%20Dataset
-cd 2019 Mali Crop Type Dataset/
+git clone https://github.com/radiantearth/mlhub-tutorials.git
+cd notebooks/2019 Mali Crop Type Dataset/
 ```
 TODO: Change links after merge
 
