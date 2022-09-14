@@ -20,6 +20,15 @@ The second notebook [2. Model training](https://github.com/radiantearth/mlhub-tu
 |  4GB RAM  | 8GB RAM|
 |           | NVIDIA GPU |
 
+## Get Started With Inferencing
+
+First clone this Git repository.
+```bash
+git clone https://github.com/radiantearth/mlhub-tutorials/tree/mali-crop-type/notebooks/2019%20Mali%20Crop%20Type%20Dataset
+cd 2019 Mali Crop Type Dataset/
+```
+TODO: Change links after merge
+
 ## Building and Running a Docker Container for the Machine Learning Model
 In order to start building a Docker container for a machine learning model, let’s consider three files: [Dockerfile](https://github.com/radiantearth/mlhub-tutorials/blob/mali-crop-type/notebooks/2019%20Mali%20Crop%20Type%20Dataset/Dockerfile), [train.py](https://github.com/radiantearth/mlhub-tutorials/blob/mali-crop-type/notebooks/2019%20Mali%20Crop%20Type%20Dataset/train.py), [inference.py](https://github.com/radiantearth/mlhub-tutorials/blob/mali-crop-type/notebooks/2019%20Mali%20Crop%20Type%20Dataset/inference.py).
 
