@@ -49,7 +49,7 @@ To run the notebooks locally:
     ```
 
 ## Documentation
-You can access the full documentation of Radiant MLHub API [here](http://docs.mlhub.earth). 
+You can access the full documentation of Radiant MLHub API [here](https://mlhub.earth/docs). 
 
 ## Contribute
 If you find these guides useful and would like to contribute, make a pull request or send us an email at ml@radiant.earth.
