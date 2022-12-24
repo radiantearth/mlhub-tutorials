@@ -35,21 +35,23 @@ To run the notebooks locally:
 
 1) Create & activate a virtual environment of your choice 
 
-2) Install dependencies:
+2) Change to the subdirectory you wish to run.
+
+3) Install dependencies:
 
     ```shell
-    pip install -r requirements_dev.txt
+    pip install -r requirements.txt
     ```
 
 3) Run Jupyter Notebook server:
 
     ```shell
-    # Example notebooks are in the notebooks/ directory
-    jupyter notebook notebooks/
+    # Check to make sure you are in the directory where the notebook(s) you want to run live
+    jupyter notebook
     ```
 
 ## Documentation
-You can access the full documentation of Radiant MLHub API [here](https://mlhub.earth/docs). 
+You can access the full documentation of Radiant MLHub API and Python Client [here](https://mlhub.earth/docs). 
 
 ## Contribute
 If you find these guides useful and would like to contribute, make a pull request or send us an email at ml@radiant.earth.
