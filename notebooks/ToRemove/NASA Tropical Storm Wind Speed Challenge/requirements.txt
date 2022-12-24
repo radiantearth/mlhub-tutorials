@@ -1,0 +1,7 @@
+numpy==1.23.2
+pandas==1.5.0
+radiant_mlhub==0.5.1
+jupyter~=1.0.0
+seaborn~=0.11.1
+nb_black~=1.0.7
+
