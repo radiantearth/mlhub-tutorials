@@ -1,49 +1,35 @@
-# Radiant MLHub API Examples
+# Radiant MLHub Python Client Examples
 
-The notebooks below provide examples and tutorials to cover some common uses of Radiant MLHub data. All examples utilize Python in Jupyter Notebooks.
+The notebooks in this repository provide examples and tutorials to cover some common uses of [Radiant MLHub data](https://mlhub.earth/). All examples utilize Python in Jupyter Notebooks.
 
-## radiant-mlhub Documentation
-Each tutorial in this repository uses the radiant-mlhub package. To see the full documentation of the Radiant MLHub Python Client, visit the docs [here](https://mlhub.earth/docs). 
+### radiant-mlhub Documentation
+Each tutorial in this directory uses the radiant-mlhub package. To see the full documentation of the Radiant MLHub Python Client, visit the docs [here](https://radiant-mlhub.readthedocs.io/en/latest/). 
 
 ## Guide to Accessing Data from Radiant MLHub
-Step-by-step guides for accessing datasets via Radiant MLHub. While this does not cover all datasets available in the API, the principles here can be applied to accessing other datasets.
+Step-by-step guides for accessing datasets via Radiant MLHub. While this does not cover all datasets available in the Radiant MLHub, the principles here can be applied to accessing other datasets.
 
-* [**CV4A Kenya Crop Type Competition Dataset**](./Guide to Accessing Data from Radiant MLHub/CV4A Kenya Crop Type Competition Dataset/)
-* [**NASA Flood Extent Detection Dataset**](./Guide to Accessing Data from Radiant MLHub/NASA Flood Extent Detection Dataset/)
+* [**CV4A Kenya Crop Type Competition Dataset**](./Guide%20to%20Accessing%20Data%20from%20Radiant%20MLHub/CV4A%20Kenya%20Crop%20Type%20Competition%20Dataset/): How use Python to see what data are available for download from Radiant MLHub, download a dataset, explore downloaded dataset, and visualize a portion of the downloaded data.  
+* [**NASA Flood Extent Detection Dataset**](./Guide%20to%20Accessing%20Data%20from%20Radiant%20MLHub/NASA%20Flood%20Extent%20Detection%20Dataset/): How use Python to see what data are available for download from Radiant MLHub, create multiple filters&ndash;spatial, temporal, and for STAC collection(s)&ndash;and download a subset of a dataset using the defined filters.
 
 
 ## Guide to Building a Basic Machine Learning Model
-Radiant MLHub provides the building blocks for model development: source imagery and labels. The tutorials in this subdirectory demonstrate how to create a basic ML model using data from Radiant MLHub. 
-Cloud Detection Model Development
+Radiant MLHub provides the building blocks for model development: source imagery and labels. The tutorial in this directory demonstrate how to create a basic machine learning model using data from Radiant MLHub. 
 
-# Run in Hosted Environment
+* [**Basic Model Training**](./Guide%20to%20Building%20a%20Basic%20Machine%20Learning%20Model/Basic%20Model%20Training/): Explore datasets available on Radiant MLHub, download cloud cover dataset from Radiant MLHub, Populate a PyTorch DataLoader, visualize the cloud classification balance in the training dataset, define model architechture, train the model, plot the model performance, and produce a confusion matrix. 
 
-*Note that the examples involving downloading assets will download those assets to the remote environment and not to 
-your local file system. To download these assets locally you must run the notebooks locally (see next section).*
 
-### Run on Binder
-You can run the Jupyter Notebook examples using [Binder](https://mybinder.org/) by clicking on the 
-"launch binder" badge above or [this link](https://mybinder.org/v2/gh/radiantearth/mlhub-tutorials/main?filepath=notebooks%2Findex.ipynb). 
-The Binder environment will automatically install any dependencies required by the notebooks. 
 
-### Run in Google Colab
-You can run the Jupyter Notebook examples using [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#) 
-by clicking on the "Open in Colab" badge above or [this 
-link](https://colab.research.google.com/github/radiantearth/mlhub-tutorials/blob/main/notebooks/index.ipynb). Colab does 
-not have a mechanism for automatically installing dependencies to a notebook environment like Binder, so *you will need to 
-install all dependencies within the notebook as follows:*
+# How to Run the Notebooks
 
-```
-%pip install radiant-mlhub~=0.5.1 tifffile==2019.7.26.2 pandas~=1.2.0 matplotlib~=3.3.4 scikit-image~=0.18.1
-```
+Each subdirectory contains its own `requirements.txt` file that contains all the dependencies needed to be able to run the subdirectory's notebook(s). To run a given set of notebooks locally:
 
-### Run Locally
+1) Create & activate a virtual environment of your choice.
 
-To run the notebooks locally:
 
-1) Create & activate a virtual environment of your choice 
-
-2) Change to the subdirectory you wish to run.
+2) Change to the subdirectory you wish to run:
+    ```shell
+    cd notebooks/<TARGET DIRECTORY>
+    ```
 
 3) Install dependencies:
 
@@ -54,6 +40,5 @@ To run the notebooks locally:
 3) Run Jupyter Notebook server:
 
     ```shell
-    # Check to make sure you are in the directory where the notebook(s) you want to run live
     jupyter notebook
     ```
