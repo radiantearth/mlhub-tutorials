@@ -1,7 +1,7 @@
 RadiantMLHub-intro.docx
-notebooks/.ipynb_checkpoints/
+tutorials/.ipynb_checkpoints/
 .DS_Store
 .python-version
 .idea
-notebooks/**/.ipynb_checkpoints
-notebooks/**/data
+tutorials/**/.ipynb_checkpoints
+tutorials/**/data

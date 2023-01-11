@@ -1,0 +1,2 @@
+radiant_mlhub==0.5.1
+jupyter~=1.0.0
