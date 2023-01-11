@@ -13,7 +13,7 @@ Each subdirectory contains its own `requirements.txt` file that contains all the
 
 2) Change to the subdirectory you wish to run:
     ```shell
-    cd notebooks/<TARGET DIRECTORY>
+    cd tutorials/<TARGET DIRECTORY>
     ```
 
 3) Install dependencies:
