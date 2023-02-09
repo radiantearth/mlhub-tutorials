@@ -1,0 +1,11 @@
+radiant-mlhub==0.4.1
+pandas==1.*
+tensorflow==2.7.0
+keras==2.*
+segmentation_models
+matplotlib==3.*
+scikit-learn
+numpy
+rasterio
+ipywidgets
+h5py==2.10.0
