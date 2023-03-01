@@ -1,6 +1,6 @@
 radiant-mlhub==0.4.1
 pandas==1.*
-tensorflow==2.7.0
+tensorflow==2.9.3
 keras==2.*
 segmentation_models
 matplotlib==3.*
