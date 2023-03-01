@@ -16,9 +16,9 @@ Radiant MLHub provides the building blocks for model development: source imagery
 
 * [**Agrifieldnet Compeition Basic Model**](./Guide%20to%20Building%20a%20Basic%20Machine%20Learning%20Model/A%20Baseline%20Model%20for%20the%20AgrifieldNet%20India%20Competition/): Load the data and build a baseline model using Random Forests on the  [ref_agrifieldnet_competition_v1](https://mlhub.earth/data/ref_agrifieldnet_competition_v1) dataset. 
 
-* [**Basic Model Training**](./Guide%20to%20Building%20a%20Basic%20Machine%20Learning%20Model/Basic%20Model%20Training/): Explore datasets available on Radiant MLHub, download cloud cover dataset from Radiant MLHub, Populate a PyTorch DataLoader, visualize the cloud classification balance in the training dataset, define model architechture, train the model, plot the model performance, and produce a confusion matrix. 
+* [**Basic Cloud Detection Model**](./Guide%20to%20Building%20a%20Basic%20Machine%20Learning%20Model/Basic%20Cloud%20Detection%20Model/): Explore datasets available on Radiant MLHub, download cloud cover dataset from Radiant MLHub, Populate a PyTorch DataLoader, visualize the cloud classification balance in the training dataset, define model architechture, train the model, plot the model performance, and produce a confusion matrix. 
 
-* [**Basic Model Training**](./Guide%20to%20Building%20a%20Basic%20Machine%20Learning%20Model/2021%20NASA%20Harvest%20Rwanda%20Baseline%20Model/): Create a baseline field delineation model for detecting boundaries from Sentinel-2 time-series satellite imagery using a spatio-temporal U-Net model on the [2021 NASA Harvest Rwanda dataset](https://mlhub.earth/data/nasa_rwanda_field_boundary_competition).
+* [**NASA Harvest Rwanda Baseline Model**](./Guide%20to%20Building%20a%20Basic%20Machine%20Learning%20Model/2021%20NASA%20Harvest%20Rwanda%20Baseline%20Model/): Create a baseline field delineation model for detecting boundaries from Sentinel-2 time-series satellite imagery using a spatio-temporal U-Net model on the [2021 NASA Harvest Rwanda dataset](https://mlhub.earth/data/nasa_rwanda_field_boundary_competition).
 
 # How to Run the Notebooks
 
