@@ -6,7 +6,7 @@ python_dateutil==2.8.2
 radiant_mlhub==0.5.5
 scikit_learn==1.1.2
 seaborn==0.12.0
-torch==1.12.1
+torch==1.13.1
 tqdm==4.64.0
 requests==2.27.0
 jupyter~=1.0.0
