@@ -1,0 +1,13 @@
+radiant-mlhub==0.1.*
+tensorflow==2.4.0
+keras==2.6.*
+matplotlib==3.3.*
+scikit-image==0.17.*
+scikit-learn==0.24.*
+numpy==1.19.*
+rasterio
+notebook
+seaborn
+ipywidgets
+Pillow
+h5py==2.10.0
